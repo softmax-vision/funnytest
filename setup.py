@@ -1,11 +1,14 @@
-from setuptools import setup
+from distutils.core import setup
 
-setup(name='funniesttest',
-      version='0.1',
-      description='The funniest joke in the world',
-      url='http://github.com/storborg/funniest',
-      author='Flying Circus',
-      author_email='flyingcircus@example.com',
-      license='MIT',
-      packages=['funniest'],
-      zip_safe=False)
+setup(
+	name='funniesttest',
+	packages=['funniest'],
+	version='1.0',
+	description='test',
+	author='',
+	author_email='',
+	url='https://github.com/softmax-vision/funnytest',
+	download_url='https://github.com/softmax-vision/funnytest/archive/1.0.tar.gz',
+	keywords=['tag1','tag2'],
+	classifiers=[]
+)
